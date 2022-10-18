@@ -1,0 +1,11 @@
+---
+- test/test_change_expectation.rb
+- test/test_custom_matcher.rb
+- test/test_enumerable_expectations.rb
+- test/test_error_expectations.rb
+- test/test_expectation_builder.rb
+- test/test_helper.rb
+- test/test_matcher_builder.rb
+- test/test_modals.rb
+- test/test_operator_expectations.rb
+- test/test_truth_expectations.rb

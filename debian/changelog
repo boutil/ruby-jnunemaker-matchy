@@ -1,0 +1,12 @@
+ruby-jnunemaker-matchy (0.4.0-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 15:50:53 +0100
+
+ruby-jnunemaker-matchy (0.4.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #691492)
+
+ -- Nandaja Varma <nandaja.varma@gmail.com>  Thu, 08 Nov 2012 22:43:56 +0400

@@ -1,0 +1,20 @@
+Source: ruby-jnunemaker-matchy
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Nandaja Varma <nandaja.varma@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.3.0~), ruby-test-unit
+Standards-Version: 3.9.4
+Vcs-Git: git://git.debian.org/pkg-ruby-extras/ruby-jnunemaker-matchy.git
+Vcs-Browser: http://git.debian.org/?p=pkg-ruby-extras/ruby-jnunemaker-matchy.git;a=summary
+Homepage: http://matchy.rubyforge.org
+XS-Ruby-Versions: all
+
+Package: ruby-jnunemaker-matchy
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Description: RSpec-like matcher system for use in Test::Unit
+ Matchy provides a sophisticated matcher system for developing Ruby
+ testing frameworks in an RSpec-like behavior-driven style, which
+ eliminates the overhead of writing assertions.
