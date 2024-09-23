@@ -229,7 +229,7 @@ class TestTruthExpectations < Test::Unit::TestCase
   end
   
   def test_kind_of
-    3.should be_kind_of(Fixnum)
+    3.should be_kind_of(Integer)
   end
   
   def test_kind_of_fail
@@ -244,7 +244,7 @@ class TestTruthExpectations < Test::Unit::TestCase
   
   def test_negative_kind_of_fail
     lambda {
-      3.should_not be_kind_of(Fixnum)
+      3.should_not be_kind_of(Integer)
     }.should raise_error(Test::Unit::AssertionFailedError)
   end
 

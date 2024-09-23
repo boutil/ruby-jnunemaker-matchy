@@ -121,7 +121,7 @@ module Matchy
       # ==== Examples
       #
       #   nil.should be_nil
-      #   17.should be_kind_of(Fixnum)
+      #   17.should be_kind_of(Integer)
       #   obj.something? #=> true
       #   obj.should be_something
       def method_missing(name, *args, &block)
